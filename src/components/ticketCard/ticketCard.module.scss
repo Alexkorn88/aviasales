@@ -1,0 +1,52 @@
+.ticketCard{
+        background-color: #ffffff;
+        // border: 1px solid red;
+        margin: 20px 0 0 0;
+        padding: 20px;
+        width: 502px;
+        height: 184px;
+        border-radius: 5px;
+        box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.ticketItemTopic{
+        color: #A0B0B9;
+        margin: 0 0 7px 0;
+        font-size: 12px;
+}
+.ticketItemInfo{
+        font-size: 14px;
+        font-weight: 600;
+}
+.ticketHeader{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+}
+.ticketPrice{
+        padding-top: 0;
+        margin: 0;
+        font-size: 24px;
+        color: #2196F3;
+}
+.ticketLogo{
+        margin: 0;
+       
+}
+.ticketDataWrapper{
+        margin: 0;
+}
+.ticketData{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0px;
+       
+}
+.ticketItem{
+        margin: 0;
+        width: 141px;     
+}
+
+.lowerCase{
+        text-transform: lowercase !important;
+}

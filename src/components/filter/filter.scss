@@ -1,0 +1,68 @@
+.filter{
+    background-color: #ffffff;
+    // border: 1px solid red;
+    margin: 0;
+    // padding: 20px;
+    width: 502px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.filterBtn{
+    line-height: 50px;
+    width: 33.3%;
+    text-align: center;
+    border: 1px solid #DFE5EC;
+    margin: 0;
+    cursor: pointer;
+    user-select: none;
+    // font: inherit;
+    // color: inherit;
+    // background-color: transparent;
+    &:first-child{
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-right: none; 
+    }
+    &:last-child{
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-left: none;        
+    }
+    &:hover{
+        background-color: #409eeb;
+        color: #FFFFFF;
+    }
+}
+.filterBtnActive{
+    line-height: 50px;
+    width: 33.3%;
+    text-align: center;
+    border: 1px solid #DFE5EC;
+    margin: 0;
+    cursor: pointer;
+    user-select: none;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    // font: inherit;
+    // color: inherit;
+    // background-color: transparent;
+    &:first-child{
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-right: none; 
+    }
+    &:last-child{
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-left: none;        
+    }
+    &:hover{
+        background-color: #409eeb;
+        // color: #4A4A4A;
+    }
+}

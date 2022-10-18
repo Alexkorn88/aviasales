@@ -1,0 +1,13 @@
+*,
+*:after,
+*:before {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  /* min-height: 100%; */
+}
+
+body {
+  background-color: #f3f7fa;
+  min-height: 100vh;
+}

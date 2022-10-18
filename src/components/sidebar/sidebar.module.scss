@@ -1,0 +1,52 @@
+.sidebar{
+    background-color: #ffffff;
+    // border: 1px solid red;
+    margin: 0;
+    padding: 20px;
+    width: 232px;
+    height: 252px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+}
+.title{
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #4A4A4A;
+}
+.form{
+    text-transform: none;
+    margin-bottom: 25px;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0 -20px;
+    user-select: none;
+}
+
+.input{
+
+}
+// .visuality-hidden{
+//     position: absolute;
+//     width: 1px;
+//     height: 1px;
+//     margin: -1px;
+//     bottom: 0;
+//     padding: 0;
+//     clip: rect(0 0 0 0);
+//     overflow: hidden;
+// }
+// .label {
+//     position: relative;
+//     margin-left: 30px;
+// }
+// .checker{
+//     position: absolute;
+//     top: -2px;
+//     margin-left: -30px;
+//     width: 20px;
+//     height: 20px;
+//     background-image: url(../img/checkboxOff.svg);
+// }
+// .input:checked + .checker {
+//     background-image: url(../img/checkboxOn.svg);
+// }
