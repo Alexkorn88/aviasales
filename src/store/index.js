@@ -1,8 +1,5 @@
 // eslint-disable-next-line import/order
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
-
-// eslint-disable-next-line import/named, import/no-unresolved
-// import { composeWithDevTools } from '@redux-devtools/extension';
 import reduxThunk from 'redux-thunk';
 
 import { checkReduser } from './checkReduser';

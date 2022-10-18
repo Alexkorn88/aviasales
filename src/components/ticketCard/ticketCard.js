@@ -1,4 +1,5 @@
 import React from 'react';
+// import { useSelector } from 'react-redux/es/exports';
 
 import styles from './ticketCard.module.scss';
 
@@ -49,6 +50,7 @@ function TicketCard({ itemProps }) {
     );
   });
   return (
+    // eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-static-element-interactions
     <div className={styles.ticketCard}>
       <div className={styles.ticketHeader}>
         <div className={styles.ticketPrice}>{ticktPrice}</div>

@@ -8,7 +8,6 @@ const defState = {
 // eslint-disable-next-line default-param-last
 export const ticketsReduser = (state = defState, action) => {
   switch (action.type) {
-    // eslint-disable-next-line no-undef
     case 'TICKETS_DATA':
       return {
         ...state,
