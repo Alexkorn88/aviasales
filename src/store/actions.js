@@ -1,6 +1,3 @@
-// import { useSelector } from 'react-redux/es/exports';
-
-// eslint-disable-next-line import/named
 import { ALL_CHECK, ONE_CHECK, TOGGLE_FTR, SEARCH_ID, TICKETS_DATA, ADD_FIVE_TICKETS } from './type';
 
 export const addAllCheckAction = (payload) => ({ type: ALL_CHECK, payload });
