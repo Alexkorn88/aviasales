@@ -6,12 +6,14 @@ import { checkReduser } from './checkReduser';
 import { filterReduser } from './filterReduser';
 import { searchIdReduser } from './idReduser';
 import { ticketsReduser } from './ticketsReduser';
+import { fiveTicketsReduser } from './fiveTicketsReduser';
 
 const rootReduser = combineReducers({
   check: checkReduser,
   filter: filterReduser,
   searchIds: searchIdReduser,
   tickets: ticketsReduser,
+  fiveTickets: fiveTicketsReduser,
 });
 
 const composeEnhancers =

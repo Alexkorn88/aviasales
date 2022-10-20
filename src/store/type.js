@@ -6,3 +6,5 @@ export const TOGGLE_FTR = 'TOGGLE_FTR';
 export const SEARCH_ID = 'SEARCH_ID';
 
 export const TICKETS_DATA = 'TICKETS_DATA';
+
+export const ADD_FIVE_TICKETS = 'ADD_FIVE_TICKETS';

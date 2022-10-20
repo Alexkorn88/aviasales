@@ -1,10 +1,12 @@
 // import { useSelector } from 'react-redux/es/exports';
 
-import { ALL_CHECK, ONE_CHECK, TOGGLE_FTR, SEARCH_ID, TICKETS_DATA } from './type';
+// eslint-disable-next-line import/named
+import { ALL_CHECK, ONE_CHECK, TOGGLE_FTR, SEARCH_ID, TICKETS_DATA, ADD_FIVE_TICKETS } from './type';
 
 export const addAllCheckAction = (payload) => ({ type: ALL_CHECK, payload });
 export const addOneCheckAction = (id) => ({ type: ONE_CHECK, id });
 export const addFilterAction = (id) => ({ type: TOGGLE_FTR, id });
+export const addFiveTicketAction = () => ({ type: ADD_FIVE_TICKETS });
 
 export function addSearchIdAction() {
   return async (dispatch) => {
@@ -38,6 +40,7 @@ export function addTicketsAction(searchId) {
             }
           })
           .then((tikets) => {
+            dispatch({ type: TICKETS_DATA, data: tikets.tickets });
             if (tikets.stop) {
               dispatch({
                 type: TICKETS_DATA,

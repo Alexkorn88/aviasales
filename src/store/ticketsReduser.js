@@ -11,7 +11,7 @@ export const ticketsReduser = (state = defState, action) => {
     case 'TICKETS_DATA':
       return {
         ...state,
-        data: action.data,
+        data: [...state.data, ...action.data],
         stop: action.stop,
       };
     default:

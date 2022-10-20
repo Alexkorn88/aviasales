@@ -7,22 +7,22 @@ const defState = {
     {
       id: 0,
       title: 'Без пересадок',
-      checked: false,
+      checked: true,
     },
     {
       id: 1,
       title: '1 пересадка',
-      checked: false,
+      checked: true,
     },
     {
       id: 2,
       title: '2 пересадки',
-      checked: false,
+      checked: true,
     },
     {
       id: 3,
       title: '3 пересадки',
-      checked: false,
+      checked: true,
     },
   ],
 };

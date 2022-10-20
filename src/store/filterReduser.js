@@ -33,7 +33,7 @@ export const filterReduser = (state = defState, action) => {
       const newItem = {
         ...item,
         enable: !item.enable,
-        className: 'filterBtnActive',
+        className: !item.enable ? (item.className = 'filterBtnActive') : (item.className = 'filterBtn'),
       };
       return {
         ...state,
